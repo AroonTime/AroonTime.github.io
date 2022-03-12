@@ -1,0 +1,83 @@
+body {
+  font-family: "Libre Baskerville", serif;
+}
+
+.about {
+  font-size: 18px;
+  font-weight: 300;
+  color: gray;
+  margin-bottom: 28px;
+}
+
+.avatar {
+  width: 210px;
+  height: 210px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 8px 0px orange;
+}
+
+.button {
+  background-color: orange;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.container {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url(https://images.unsplash.com/photo-1519408469771-2586093c3f14?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1302&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 128px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 48px;
+  }
+}
+
+.contact {
+  margin-bottom: 36px;
+}
+
+.contact-icon {
+  margin-right: 12px;
+  width: 16px;
+}
+.content {
+  max-width: 500px;
+}
+
+.contact-item {
+  margin-bottom: 5px;
+}
+
+.job {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.name {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: darkorange;
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 24px;
+  }
+}
